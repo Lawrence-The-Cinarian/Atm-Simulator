@@ -97,7 +97,7 @@ printf("Please Enter You Password: ");
      }
    }
   else {
-    printf("Access Denied");
+    printf("Access Denied\n");
     return 0;
   }
 }
