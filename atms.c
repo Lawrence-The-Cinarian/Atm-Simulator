@@ -4,6 +4,7 @@
 /*Can't Store Info on previous use but I'll update it as soon as i get the gist of it
 Still Learning Fundamentals though and will keep learning*/
 int main() {
+  int loop = 0;
 do{
   int option;
   double balUSD = 200000;
