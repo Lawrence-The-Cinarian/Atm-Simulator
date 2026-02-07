@@ -4,14 +4,14 @@
 /*Can't Store Info on previous use but I'll update it as soon as i get the gist of it
 Still Learning Fundamentals though and will keep learning*/
 int main() {
-  int loop = 0;
+  int loop = 4000;
 do{
   int option;
   double balUSD = 200000;
   double balNGN = 200000;
   double depo, with;
   char atmp [70]; //ATM PASSWORD
-printf("Welcome To Automation Decentralized Mines");
+printf("Welcome To Automation Decentralized Mines\n");
 printf("Please Enter You Password: ");
   scanf("%69s", atmp);
    if(strcmp(atmp, "Lawxey8") == 0) {
@@ -101,7 +101,7 @@ printf("Please Enter You Password: ");
     return 0;
   }
 }
-while(bal != 0);
+while(loop != 4000);
   return 0;
 }
 
