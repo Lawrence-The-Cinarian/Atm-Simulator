@@ -91,6 +91,8 @@ printf("Please Enter You Password: ");
            printf("Successfully Withdrawn!\n Bal in NGN: %.2f\n", balNGN);
          }
          break;
+         default:
+         printf ("Invalid Input\n");
      }
    }
   else {
