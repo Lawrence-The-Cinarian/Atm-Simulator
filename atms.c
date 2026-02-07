@@ -6,9 +6,9 @@ Still Learning Fundamentals though and will keep learning*/
 int main() {
 do{
   int option;
-  const double balUSD = 200000;
-  const double balNGN = 200000;
-  const double depo, with;
+  double balUSD = 200000;
+  double balNGN = 200000;
+  double depo, with;
   char atmp [70]; //ATM PASSWORD
 printf("Welcome To Automation Decentralized Mines");
 printf("Please Enter You Password: ");
