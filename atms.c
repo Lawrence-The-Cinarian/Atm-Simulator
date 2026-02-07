@@ -30,7 +30,7 @@ printf("Please Enter You Password: ");
        break;
        case 2: 
          printf("Enter Deposit Amt. in USD: ");
-         scanf("%d", &depo);
+         scanf("%lf", &depo);
          if(depo <= 0 ) {
           printf("Invalid Amount,\n Deposit Amount must be greater than 0\n");
           return depo;
@@ -46,7 +46,7 @@ printf("Please Enter You Password: ");
          break;
        case 3:
          printf("Enter Deposit Amt. in NGN: ");
-         scanf("%d", &depo);
+         scanf("%lf", &depo);
          if(depo <= 0 ) {
           printf("Invalid Amount,\n Deposit Amount must be greater than 0\n");
           return depo;
@@ -62,7 +62,7 @@ printf("Please Enter You Password: ");
          break;
        case 4:
          printf("Enter Withdrawal Amt. in USD ");
-         scanf("%d", &with);
+         scanf("%lf", &with);
          if(with<= 0 ) {
           printf("Invalid Amount,\n Withdrawal Amount must be greater than 0\n");
           return with;
@@ -78,7 +78,7 @@ printf("Please Enter You Password: ");
          break;
        case 5:
          printf("Enter Withdrawal Amt. in NGN: ");
-         scanf("%d", &with);
+         scanf("%lf", &with);
          if(depo <= 0 ) {
           printf("Invalid Amount,\n Withdrawal Amount must be greater than 0\n");
           return with;
