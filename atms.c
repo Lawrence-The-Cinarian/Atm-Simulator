@@ -7,10 +7,9 @@ int main() {
   int loop = 1;
   int option;
   double balUSD = 200000;
-  double *ptr = &balUSD;
   double balNGN = 200000;
-  double *ptr = &balNGN;
   double depo, with;
+  double *ptr;
   char atmp [70]; //ATM PASSWORD
 do{
 printf("Welcome To Automation Decentralized Mines\n");
@@ -28,7 +27,9 @@ printf("Please Enter You Password: ");
      scanf("%d", &option);
      switch(option) {
        case 1: 
+         ptr = &balUSD;
          printf("Bal: %.2f\n", balUSD);
+         ptr = &balNGN;
          printf("Bal: %.2f\n", balNGN);
        break;
        case 2: 
