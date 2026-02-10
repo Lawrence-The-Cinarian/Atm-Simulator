@@ -7,7 +7,9 @@ int main() {
   int loop = 1;
   int option;
   double balUSD = 200000;
+  double *ptr = &balUSD;
   double balNGN = 200000;
+  double *ptr = &balNGN;
   double depo, with;
   char atmp [70]; //ATM PASSWORD
 do{
