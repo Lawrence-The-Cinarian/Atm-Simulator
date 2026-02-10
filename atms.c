@@ -121,7 +121,7 @@ printf("Please Enter You Password: ");
     printf("\n");
     return 0;
   }
-
+}
 while(loop != 0);
   return 0;
 }
