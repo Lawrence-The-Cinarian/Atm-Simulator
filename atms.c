@@ -2,7 +2,8 @@
 #include <math.h>
 #include <string.h>
 /*Can't Store Info on previous use but I'll update it as soon as i get the gist of it
-Still Learning Fundamentals though and will keep learning*/
+Still Learning Fundamentals though and will keep learning
+Updated Now you can run prompts and store info in it*/
 int main() {
   int loop = 1;
   int option;
