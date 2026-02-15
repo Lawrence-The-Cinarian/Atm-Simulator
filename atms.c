@@ -3,7 +3,8 @@
 #include <string.h>
 /*Can't Store Info on previous use but I'll update it as soon as i get the gist of it
 Still Learning Fundamentals though and will keep learning
-Updated Now you can run prompts and store info in it*/
+Updated Now you can run prompts and store info in it
+In a Sense though, (pointers where included to locate the address of the memory)*/
 int main() {
   int loop = 1;
   int option;
@@ -14,7 +15,7 @@ int main() {
   char atmp [70]; //ATM PASSWORD
 do{
 printf("Welcome To Automation Decentralized Mines\n");
-printf("Please Enter You Password: ");
+printf("Please Enter Your Password: ");
   scanf("%69s", atmp);
    if(strcmp(atmp, "Lawxey8") == 0) {
      printf("Access Granted\n");
